@@ -54,6 +54,8 @@
           - '/mnt:/mnt'
           - '/opt/appdata/plex/database:/config'
           - '/opt/transcodes:/transcode'
+          - '/dev/dri/card0:/dev/dri/card0'
+          - '/dev/dri/renderD128:/dev/dri/renderD128'
           - '/dev/shm:/ram_transcode'
           - '{{path.stdout}}:{{path.stdout}}'
           - '/etc/localtime:/etc/localtime:ro'
